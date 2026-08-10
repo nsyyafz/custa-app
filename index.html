@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zytrava — Skrining Dini Kusta</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#0F766E" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Semua "halaman" di-render ke sini oleh router.js -->
+  <div id="app"></div>
+
+  <!-- Supabase SDK (dari CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- TensorFlow.js (buat Edge AI di browser) -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
+
+  <!-- Modul aplikasi kita, urutannya penting: config dulu, baru yang pakai config -->
+  <script src="js/supabaseClient.js"></script>
+  <script src="js/db/offlineStore.js"></script>
+  <script src="js/ai/dermaai.js"></script>
+  <script src="js/cdss/cdssEngine.js"></script>
+  <!-- Komponen bersama (header/footer), harus dimuat sebelum screens -->
+  <script src="js/components/header.js"></script>
+  <script src="js/components/footer.js"></script>
+
+  <script src="js/screens/splash.js"></script>
+  <script src="js/screens/login.js"></script>
+  <script src="js/screens/register.js"></script>
+  <script src="js/screens/home.js"></script>
+  <script src="js/screens/scan.js"></script>
+  <script src="js/screens/kuesioner.js"></script>
+  <script src="js/screens/analisis.js"></script>
+  <script src="js/screens/result.js"></script>
+  <script src="js/screens/puskesmas.js"></script>
+  <script src="js/screens/riwayat.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
