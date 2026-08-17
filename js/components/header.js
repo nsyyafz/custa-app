@@ -22,7 +22,7 @@ function headerHTML({ variant = "brand", title = "" } = {}) {
       <div class="row">
         <div class="brand">
           <div class="brand-logo"></div>
-          <span class="brand-name">ZYTRAVA</span>
+          <span class="brand-name">CUSTA</span>
         </div>
         <button class="notif-btn" id="header-notif-btn" aria-label="Profil">
           <img src="assets/icons/icon-profil.svg" alt="" aria-hidden="true" />

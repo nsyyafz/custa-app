@@ -191,7 +191,7 @@ body {
   width: 100%;
   border-radius: 9999px;
   transform: rotate(-0.99deg);
-  background-image: url("../assets/icons/zytrava-logo.png");
+  background-image: url("../assets/icons/custa-logo.png");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -688,7 +688,7 @@ body {
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  background-image: url("../assets/icons/zytrava-logo.png");
+  background-image: url("../assets/icons/custa.png");
   background-size: cover;
   background-position: center;
 }
