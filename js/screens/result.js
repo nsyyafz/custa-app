@@ -163,7 +163,7 @@ function renderResultScreen(container) {
     alert("Hasil skrining sudah tersimpan otomatis ke riwayat Anda.");
   });
   document.getElementById("btnKunjunganRumah").addEventListener("click", () => {
-    alert("Fitur Kunjungan Rumah belum tersedia, masih dalam pengerjaan.");
+    navigateTo("layananKunjungan");
   });
   document.getElementById("btnFaskesTerdekat").addEventListener("click", () => navigateTo("puskesmas"));
   document.getElementById("btnKembaliBeranda").addEventListener("click", () => navigateTo("home"));

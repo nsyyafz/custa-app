@@ -13,6 +13,22 @@ const routes = {
   result: renderResultScreen,
   riwayat: renderRiwayatScreen,
   puskesmas: renderPuskesmasScreen,
+  profil: renderProfilScreen,
+  beriPenilaian: renderBeriPenilaianScreen,
+  editProfil: renderEditProfilScreen,
+  keamananAkun: renderKeamananAkunScreen,
+  notifikasi: renderNotifikasiScreen,
+  tentang: renderAboutScreen,
+  kebijakanPrivasi: renderKebijakanPrivasiScreen,
+  mentorMedis: renderMentorMedisScreen,
+  edukasi: renderEdukasiScreen,       // ganti placeholder lama jika ada
+  detailEdukasi: renderDetailEdukasiScreen,
+  artikel: renderArtikelScreen,
+  layananKunjungan: renderLayananKunjunganScreen,
+  jenisLayanan: renderJenisLayananScreen,
+  detailLayanan: renderDetailLayananScreen,
+  metodePembayaran: renderMetodePembayaranScreen,
+  layananBerhasil: renderLayananBerhasilScreen,
 };
 
 function navigateTo(routeName) {

@@ -33,6 +33,8 @@ function setupFooterNav() {
       const key = btn.dataset.nav;
       if (key === "beranda") navigateTo("home");
       else if (key === "riwayat") navigateTo("riwayat");
+      else if (key === "profil") navigateTo("profil");
+      else if (key === "edukasi") navigateTo("edukasi");
       else alert("Halaman ini belum tersedia, masih dalam pengerjaan.");
     });
   });

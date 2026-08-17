@@ -38,10 +38,12 @@ function setupHeaderEvents({ onBack } = {}) {
   if (backBtn) {
     backBtn.addEventListener("click", onBack || (() => navigateTo("home")));
   }
+  
   const notifBtn = document.getElementById("header-notif-btn");
   if (notifBtn) {
     notifBtn.addEventListener("click", () => {
-      alert("Notifikasi belum tersedia, masih dalam pengerjaan.");
+      // Fungsi ini sekarang langsung mengarahkan ke halaman profil
+      navigateTo("profil");
     });
   }
 }

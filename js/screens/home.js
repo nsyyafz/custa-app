@@ -112,12 +112,15 @@ function renderHomeScreen(container) {
     ${footerHTML("beranda")}
   `;
 
+  // 👇 Ini perbaikannya: panggil setupHeaderEvents agar tombol header nyala
+  setupHeaderEvents(); 
+  
   setupFooterNav();
   setGreeting();
   wireQuickActions();
   loadHomeData();
 
-  document.getElementById("btnStartScreeningMain").addEventListener("click", () => navigateTo("scan"));
+  document.getElementById("btnStartScreeningMain")?.addEventListener("click", () => navigateTo("scan"));
 }
 
 function setGreeting() {
